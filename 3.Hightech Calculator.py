@@ -6,8 +6,6 @@ root.title("Hightech GUI Calculator")
 e = Entry(root, width=35, borderwidth=10)
 e.grid(row=0, column=0, columnspan=5, padx=20, pady=10)
 
-#e.insert(0, "")
-
 def button_click(number):
 
     current = e.get() 
